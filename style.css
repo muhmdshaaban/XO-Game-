@@ -1,0 +1,28 @@
+.game {
+  width: 255px;
+  text-align: center;
+  font-family: Arial;
+  color: white;
+  margin: auto;
+  font-weight: 600;
+}
+.title {
+  background: linear-gradient(#00b7ff, #0088c7);
+  padding: 5px 0;
+  margin: 5px 0;
+}
+span {
+  color: #000;
+}
+.square {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(#00b7ff, #0088c7);
+  float: left;
+  margin: 2px;
+  font-size: 60px;
+}
+.square:hover {
+  background: rgb(6, 0, 56);
+  cursor: pointer;
+}
